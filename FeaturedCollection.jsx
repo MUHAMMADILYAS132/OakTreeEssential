@@ -1,0 +1,3 @@
+export default function FeaturedCollection({ navigate }) {
+  return <section className="collection-feature"><div className="collection-photo" role="img" aria-label="Botanical body care" /><div className="collection-copy"><p className="eyebrow">The daily ritual collection</p><h2>Small rituals. Softer days.</h2><p>Build a routine that feels less like another thing to do and more like a moment that belongs to you.</p><button className="button button-outline" type="button" onClick={() => navigate('/collections')}>Explore the collection <span aria-hidden="true">→</span></button></div></section>
+}

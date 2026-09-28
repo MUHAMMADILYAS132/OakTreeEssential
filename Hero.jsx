@@ -1,0 +1,3 @@
+export default function Hero({ navigate }) {
+  return <section className="hero"><div className="hero-copy"><p className="eyebrow">A gentler kind of everyday</p><h1>Come back to your nature.</h1><p>Considered essentials, made with botanicals and a little more intention. Care that feels good, and does good.</p><button className="button" type="button" onClick={() => navigate('/shop')}>Find your everyday <span aria-hidden="true">→</span></button></div><div className="hero-image" role="img" aria-label="Thoughtful botanical skincare on a sunlit counter" /></section>
+}
