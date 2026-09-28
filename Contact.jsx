@@ -1,0 +1,7 @@
+import { useState } from 'react'
+
+export default function Contact() {
+  const [sent, setSent] = useState(false)
+  const submit = (event) => { event.preventDefault(); setSent(true) }
+  return <div className="page-width"><header className="page-heading"><p className="eyebrow">We’re here for you</p><h1>Let's talk.</h1><p>A question about an order, a product, or just want to say hello? We’d love to hear from you.</p></header><div className="contact-layout"><div className="contact-copy"><h2>A real person, soon.</h2><p>Send us a note and our little team will get back to you within two business days.</p><p><strong>Email</strong><br />hello@oakandtallow.com</p><p><strong>Hours</strong><br />Monday–Friday, 9am–5pm</p></div>{sent ? <p className="newsletter-success" role="status">Thanks for reaching out. Your note is on its way.</p> : <form className="contact-form" onSubmit={submit}><div className="form-field"><label htmlFor="contact-name">Your name</label><input id="contact-name" name="name" required /></div><div className="form-field"><label htmlFor="contact-email">Email address</label><input id="contact-email" name="email" type="email" required /></div><div className="form-field full"><label htmlFor="contact-subject">Subject</label><input id="contact-subject" name="subject" required /></div><div className="form-field full"><label htmlFor="contact-message">Your message</label><textarea id="contact-message" name="message" required /></div><button className="button" type="submit">Send your note →</button></form>}</div></div>
+}

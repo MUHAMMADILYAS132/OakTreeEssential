@@ -1,0 +1,3 @@
+export default function NotFound({ navigate }) {
+  return <div className="page-width not-found"><p className="eyebrow">A little off the path</p><strong>404</strong><h2>We can’t find that page.</h2><p style={{ margin: '12px 0 22px', color: 'var(--muted)', fontSize: 12 }}>Let’s get you back to something good.</p><button className="button" type="button" onClick={() => navigate('/')}>Back home</button></div>
+}
