@@ -1,0 +1,17 @@
+export const products = [
+  { id: 'daily-face-oil', slug: 'daily-face-oil', name: 'Daily Face Oil', category: 'Face', price: 38, tag: 'Bestseller', description: 'A lightweight botanical oil that leaves skin feeling soft, balanced, and comfortably hydrated.', image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=85' },
+  { id: 'gentle-cleanser', slug: 'gentle-cleanser', name: 'Gentle Cleansing Balm', category: 'Face', price: 32, tag: 'Daily ritual', description: 'A cushiony, plant-derived cleansing balm that melts away the day without stripping your skin.', image: 'https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=85' },
+  { id: 'body-butter', slug: 'body-butter', name: 'Nourishing Body Butter', category: 'Body', price: 42, tag: '', description: 'A rich, whipped body moisturizer made to soften dry skin and make everyday care feel special.', image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85' },
+  { id: 'botanical-mist', slug: 'botanical-mist', name: 'Botanical Face Mist', category: 'Face', price: 26, tag: 'New', description: 'A refreshing botanical mist for a gentle reset at your desk, after cleansing, or on the go.', image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=900&q=85' },
+  { id: 'hand-cream', slug: 'hand-cream', name: 'Everyday Hand Cream', category: 'Body', price: 24, tag: '', description: 'A quick-absorbing hand cream with a soft, natural scent and a comfortable, non-greasy finish.', image: 'https://images.unsplash.com/photo-1601612628452-9e99ced43524?auto=format&fit=crop&w=900&q=85' },
+  { id: 'bath-soak', slug: 'bath-soak', name: 'Unwind Mineral Soak', category: 'Bath', price: 30, tag: '', description: 'Mineral salts and aromatic botanicals for a slower, more restorative end to the day.', image: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=85' },
+  { id: 'lip-balm', slug: 'lip-balm', name: 'Daily Lip Balm', category: 'Face', price: 16, tag: '', description: 'A pocket-sized essential with a silky glide to keep lips feeling soft throughout the day.', image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85' },
+  { id: 'shower-oil', slug: 'shower-oil', name: 'Softening Shower Oil', category: 'Bath', price: 34, tag: 'Bestseller', description: 'A gentle, silky shower oil that turns a daily rinse into a small moment of calm.', image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85' },
+]
+
+export const collections = [
+  { title: 'The everyday edit', description: 'Simple, dependable essentials for your daily rhythm.', image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1200&q=85', category: 'Face' },
+  { title: 'A softer routine', description: 'Comforting care from head to toe.', image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=85', category: 'Body' },
+  { title: 'Slow down', description: 'Thoughtful little rituals to help you unwind.', image: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1200&q=85', category: 'Bath' },
+  { title: 'Good things, together', description: 'Easy-to-love essentials for a thoughtful gift.', image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1200&q=85', category: 'All' },
+]
